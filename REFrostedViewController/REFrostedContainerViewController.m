@@ -419,10 +419,10 @@
     }
 }
 
-- (void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
-{
-    [super willAnimateRotationToInterfaceOrientation:toInterfaceOrientation duration:duration];
-    [self fixLayoutWithDuration:duration];
-}
+// - (void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
+// {
+//     [super willAnimateRotationToInterfaceOrientation:toInterfaceOrientation duration:duration];
+//     [self fixLayoutWithDuration:duration];
+// }
 
 @end
